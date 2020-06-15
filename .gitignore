@@ -4,6 +4,7 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea
 
 # Generated files
 .idea/**/contentModel.xml
@@ -22,7 +23,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
-SpotifySentimentMap/__pycache__/
+**/__pycache__/
+*.log
 
 # Flask stuff:
 instance/
