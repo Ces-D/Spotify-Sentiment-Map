@@ -2,8 +2,8 @@ from SpotifySentimentMap import app
 from SpotifySentimentMap.functions import SpotifyClient
 from flask import render_template, url_for, redirect, request, session
 
-CLIENT_ID = "aac28946146248daab95e59273f38226"
-CLIENT_SECRET = "09d09bed731e4d039da84a3ddba4c26d"
+CLIENT_ID = "CLIENT_ID"
+CLIENT_SECRET = "CLIENT_SECRET"
 spotify = SpotifyClient(CLIENT_ID, CLIENT_SECRET)
 
 
